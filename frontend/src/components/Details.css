@@ -1,0 +1,42 @@
+.detailsContainer {
+	height: 80vh;
+	background-color: #FCDEC0;
+}
+
+
+.detailsWrapper {
+
+  border: 1px solid grey;
+  border-radius: 3px;
+  display: flex;
+  margin: 0 20rem;
+  font-size: large;
+  background-color: #f6f0e0;
+  box-shadow: 5px 10px 18px #34131d;
+  padding: 1rem;
+}
+
+.detailsWrapper h3, p {
+margin-bottom: 1rem;
+}
+
+.detailsImage {
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem;
+  box-shadow: 5px 10px 18px #c47a42;
+}
+
+.detailsNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 1rem;
+}
+
+.detailsNavIcon {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+}
